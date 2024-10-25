@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Formulario2</title>
+</head>
+<body>
+ 
+    <section class="questionario">
+         <h1>Etapa 2</h1>
+         <h2>Perguntas Interpessoais</h2>
+        <form id="quizForm">
+                <fieldset>
+                    <!-- adicionando Label e Input text -->
+                    <legend>Pergunta A</legend>
+                    <label for="questiona">.Quais são os principais produtos oferecidos pela empresa?</label>
+                    <input type="text" id="questiona" name="questiona" required>
+            </fieldset>
+            <fieldset>
+                <legend>Pergunta B</legend>
+                <label for="questionb">Qual é a missão e visão da empresa?</label>
+                <input type="text" id="questionb" name="questionb" required>
+            </fieldset>
+            <fieldset>
+                <legend>Pergunta C</legend>
+                <label for="questionc">Como a empresa garante a qualidade e segurança dos alimentos?</label>
+                <input type="text" id="questionc" name="questionc" required>
+            </fieldset>
+            <fieldset>
+                <legend>Pergunta D</legend>
+                <label for="questiond">Quais são os métodos de produção utilizados?</label>
+                <input type="text" id="questiond" name="questiond" required>
+            </fieldset>
+            <fieldset>
+                <legend>Pergunta E</legend>
+                <label for="questione">A empresa utiliza ingredientes orgânicos ou sustentáveis?</label>
+                <input type="text" id="questione" name="questione" required>
+            </fieldset>
+           
+            <button type="submit">Enviar</button>
+        </form>
+ 
+        <div id="result"></div>
+    </section>
+ 
+     <script src="script.js"></script>
+   
+</body>
+</html>

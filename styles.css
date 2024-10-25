@@ -1,0 +1,595 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Sansita:ital,wght@0,400;0,700;0,800;0,900;1,400;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap');
+
+:root{
+    --color-1:#edece8;
+    --color-2:#BD9477;
+    --color-3:#A67E62;
+    --color-4:#0000;
+    --color-5:#C1C1C1;
+    --color-6:#D9D9D9;
+
+     --color-light-50: #f8fafc;
+     --color-dark-50: #797984;
+     --color-dark-100:  #312d37;
+     --color-dark-900: #000;
+     
+    --cor10: #9fa0ff;
+     --cor11: #bbadff;
+     --cor12: #dab6fc; 
+     --cor13 :#e0c3fc;
+ 
+      --fonte:"Bebas Neue", sans-serif;
+      --fonte1: "DM Sans", sans-serif;
+}
+
+body{
+    background-color: var(--color-1);
+}
+
+.logo{
+    max-width: 55%;
+    margin: auto;
+    display: flex;
+}
+
+.logoBranca{
+    max-width: 15%;
+}
+
+.cabeçalhoRodape{
+    max-width: 100%;
+    
+}
+
+.botaoEntrar{
+    font-size: var(--fonte);
+    font-size: 23px; 
+    text-decoration: none;
+    color: var(--color-1);
+    font-family: var(--fonte);
+}
+
+.rodape{
+    max-width: 100%;
+    
+}
+
+.botaovoltar{
+    display: flex;
+    justify-content: center;
+    float: left;
+}
+
+.question{
+    border: solid var(--color-2) 2px;
+    width: 300px;
+    height: 200px;
+
+    font-size: 1.5vw;
+    
+}
+
+.curso {
+    width: 1200px;
+    height: 700px;
+ }
+ 
+.trabalho img{
+    width: 1200px;
+    height: 700px;
+    float: left;
+ }
+
+ .criarConta{
+    color: black;
+    font-size: 13px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+ }
+
+.caio{
+    padding-bottom: 180px;
+}
+
+.part2{
+    border: none;
+    font-size: 1.6vw;
+    margin-top: 50px;
+}
+.br{
+    margin-top: 55px;
+    font-size: 1.0vw;
+}
+.curriculo{
+    text-align: center;
+}
+.cadastro{
+    max-width: 600px;
+    margin: 50px auto;
+    padding: 50px;
+    background-color: var(--color-1);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 12px;
+}
+form fieldset{
+    border: none;
+    margin-bottom: 15px;
+    padding: auto;
+}
+form legend{
+    font-size: 1.2em;
+    margin-bottom: 10px;
+    color: #555;
+}
+ 
+.formulario{
+    display: block;
+    margin-bottom: 8px;
+}
+ 
+input, select{
+    width: calc(100% - 20px);
+    padding: 8px;
+    margin-bottom: 10px;
+    border-radius: 2px;
+    border: 1px solid rgb(0, 0, 0);
+}
+.baixar{
+    margin-top: 3px;
+}
+.borda{
+    border: none;
+}
+.sectionPrincipal{
+    display: flex;
+}
+
+.sectionUm{
+    float: right;
+}
+
+.sectionDois{
+    float: left;
+}
+
+.imgInicial{
+    max-width: 100%;
+    display: flex;
+}
+.fatima{
+    text-align: center;
+    margin-top: -800px;
+}
+.imagemmodesto{
+    width: 1477px;
+    height: 911px;
+}
+
+a{
+    color: black;
+    font-size: 13px;
+    /*display: flex;*/
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+}
+
+button{
+    margin: auto;
+    display: block;
+    width: 200px;
+    height: 40px;
+    color: var(--color-1);
+    background-color: var(--color-2);
+    border: solid var(--color-3);
+    font-size: 1.5vw;
+}
+
+h3{
+    background-color: #bd94778e;
+    text-align: center;
+    font-size: 2vw;
+}
+
+header{
+    background-color: var(--color-2);
+}
+
+main{
+    max-width: 300px;
+    height: 450px;
+    background-color: var(--color-1);
+    margin: auto;
+    display: flex;
+}
+
+
+.foto{
+    float: left;
+    width: 124px;
+    height: 136px;
+    display: flex;
+    margin: left;
+    padding: 24px;
+}
+
+.foto2{
+    float: left;
+    height: 120px;
+    width: 125px;
+    display: flex;
+    padding: 13px;
+} 
+
+.nav{
+    background-color: var(--color-2);
+    text-align: center;
+    font-size: 18px;
+    padding: 7px;
+    margin-top: 14px;
+}
+
+.nav a{
+    text-decoration: none;
+    padding: 10px 30px 10px 30px;
+    
+}
+
+.nav a:hover{
+    background-color: var(--cor-blue-50);
+    font-size: 1.2em;
+    transform: scale(1.2);  
+}
+
+.curso{
+    float: left; 
+    display: flex; 
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 0 auto;
+    
+}
+
+.aguarde{
+  
+    margin-top: 30px;
+    margin-right: auto;
+    margin-bottom: -200px;
+    margin-left: auto;
+    display: flex;
+    width: 1500px;
+    height:1000px ;
+}
+
+.titulo{
+    text-align: center;
+}
+
+.titulo2{
+    display: block;
+}
+
+#container{
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: var(--color-gradient);
+}
+#login_form{
+    display: flex;
+    flex-direction: column;
+    height: fit-content;
+    background-color: var(--color-light-50);
+    padding: 30px 40px;
+    border-radius: 8px;
+    gap: 30px;
+    box-shadow: 0px 0px 6px black;
+    animation: dark-to-light-background 0.3s ease-in-out;
+}
+#form_header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+#form_header h1{
+    font-size: 33px;
+    position: relative;
+}
+#form_header h1::before{
+    position: absolute;
+    content: '';
+    width: 105%;
+    height: 3px;
+    background-color: var(--cor-11);
+    bottom: 2px;
+    border-radius: 5px;
+}
+#mode_icon{
+    font-size: 20px;
+    cursor: pointer;
+}
+#social_media{
+    display: flex;
+    justify-content: space-around;
+}
+ 
+#social_media img{
+    width: 35px;
+}
+
+#social_media img:hover{
+    transform: scale(1.2);
+}
+
+#inputs{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+
+#input_box label{
+font-size: 14px;
+color: var(--color-dark-50);
+}
+
+#input_field{
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    padding: 3px;
+    border-bottom: 1px;
+    cursor: text;
+}
+
+#login_ab {
+    flex-direction: column;
+     background-color: var(--color-light-50); 
+    padding: 4px 20px;
+    border-radius: 8px;
+    gap: 30px;
+    box-shadow: 0px 0px 6px black;
+}
+.brasil{
+    width:230px;
+    height:111px;
+}
+.taquetto{
+    text-align: center;
+}
+    
+#input_field input{
+    border: none;
+    width: 260px;
+    background-color: transparent;
+    font-size: 18px;
+    padding: 0px 5px;
+}
+
+#input_field input:focus{
+    outline: none;
+}
+
+#forgot_passaword a:hover{
+    color: var(--cor13);
+}
+
+.titulo1{
+    text-align: center;
+    padding: 14px;
+}
+
+.ag{
+  font-size:1.6vw; 
+}
+
+.imgrosely{
+    float: left;
+    width: 250px;
+    height: 300px;
+    display: flex; 
+    justify-content: center;
+    margin: left; 
+    padding: 24px;
+}
+
+.em{
+    margin:auto;
+    display:flex;
+    font-size:1.6vw;
+}
+
+.divfuncionario{
+    background-color: var(--color-2);
+    height: 177px;
+    width: 347px;
+    justify-content: center;
+} 
+
+.divfuncionario2{
+    background-color: var(--color-2);
+} 
+
+
+.perfilEmpresa{
+    background-color: var(--color-2); 
+    padding: 12px;
+    margin: 12px;
+}
+
+
+.imgEmpresa{
+    display: flex;
+    justify-content: center;
+    height: 194px;
+    width: 298px; 
+} 
+
+
+.sectionEmpresa{
+    display: flex;
+    justify-content: center;
+}
+
+.sectionConversas{
+    float: left;
+}
+
+.sectionProcessos{
+    float: left;
+}
+
+.sectionCurriculo{
+    float: left;
+}
+
+.sectionEmpresa2{
+    display: flex;
+    justify-content: center;
+}
+
+.imgVocab{
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    height: 423px;
+    width: 522px; 
+}
+
+.mod{
+    margin:auto ;
+    display: flex;
+    margin-top: 80px;
+    margin-right: auto;
+    margin-bottom: auto;
+    margin-left: auto;
+
+}
+
+.vocabFundo{
+    text-align: center;
+}
+
+.vocabTitulo{
+    text-align: center;
+}
+
+.img{
+    width: 1000px;
+    height:500px ;
+    margin: auto;
+    display: flex;
+    margin-top: 80px;
+    margin-right: ;
+    margin-bottom: auto;
+    margin-left:-350px;
+}
+
+
+.testeNivel{
+    font-size: 18px;
+}
+
+.imgPergunta{
+    padding: 24px;
+}
+
+.etapa1{
+    display: flex;
+    justify-content: center;
+    height: 341px;
+    width: 415px;   
+}
+
+.etapa1Letra{
+    display: flex;
+    justify-content: center;
+    margin: 197px;
+    height: 341px;
+    width: 415px;  
+    font-size: 4vw; 
+}
+
+.etapa2{
+    display: flex;
+    justify-content: center;
+    height: 341px;
+    width: 415px; 
+}
+
+.etapa2Letra{
+    display: flex;
+    justify-content: center;
+    margin: 197px;
+    height: 341px;
+    width: 415px;  
+    font-size: 4vw; 
+}
+
+
+.etapa3{
+    display: flex;
+    justify-content: center;
+    height: 341px;
+    width: 415px;
+}
+
+.etapa3Letra{
+    display: flex;
+    justify-content: center;
+    margin: 197px;
+    height: 341px;
+    width: 415px;  
+    font-size: 4vw; 
+}
+
+.etapa4{
+   display: flex;
+    justify-content: center;
+    height: 341px;
+    width: 415px;
+} 
+ 
+.etapa4Letra{
+    display: flex;
+    justify-content: center;
+    margin: 197px;
+    height: 341px;
+    width: 415px; 
+    font-size: 4vw; 
+}
+
+.ni{
+    margin:auto;
+    display:flex;
+    font-size:1.6vw;
+}
+.nih{
+    margin-top: 136px;
+    margin-left: -190px;
+}
+
+.cursoIng{
+    text-align: center;
+}
+
+.cursoIngTitulo{
+    text-align: center;
+}
+.bm{
+    margin:auto;
+    margin-top: 0px;
+    margin-right:-40000px ;
+    margin-bottom: auto;
+    margin-left:-19px;
+    display:flex;
+    font-size:1.6vw;
+}
+
+
